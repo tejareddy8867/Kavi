@@ -103,7 +103,8 @@ function setupGallery() {
   ];
   var photos = [];
 for (var p = 1; p <= 20; p++) {
-  photos.push("photos/photo" + p + ".jpg");
+  photos.push("photo" + p + ".jpg");     // no "photos/" in front
+}
 }
 
   // ✏️ STEP 2: one caption per photo, in the same order.
