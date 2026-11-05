@@ -103,7 +103,8 @@ function setupGallery() {
   ];
   var photos = [];
 for (var p = 1; p <= 20; p++) {
-  photos.push("photo" + p + ".jpg");     // no "photos/" in front
+  photos.push("photo" + p + ".jpg");
+}
 }
 }
 
