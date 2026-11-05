@@ -112,7 +112,7 @@ for (var p = 1; p <= 20; p++) {
     "The pic i look anain and again", "Sweet memories", "Matching smiles", "Best day ever", "princess in the sky",
     "You, shining as always", "The day i never forget", "The you look like an angel", "Never forget this day", "Pure happiness",
     "Angel in Green dress", "My favourite view", "Always in my heart", "Magic moments", "The day i feel blessed",
-    "Together always", "Our First Pic together", "Little angel", "Little things I like", "To many more days together"
+    "Together always", "Our First Pic together", "Little angel", "Little things I like", "Gorgeous princess"
   ];
 
   var grid = document.getElementById("grid");   // the empty box in gallery.html
