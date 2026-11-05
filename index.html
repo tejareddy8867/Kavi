@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday, Princess</title>
+  <!-- Pretty fonts from Google (script font for titles, Poppins for text) -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- ALL the design (colours, sizes, layout) lives in this one file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Empty box: js/common.js fills it with flying angel wings and stars -->
+  <div id="wings" aria-hidden="true"></div>
+
+  <!-- MENU (same on both pages). "on" marks the page you are on -->
+  <nav>
+    <a href="index.html" class="on">✨ Home</a>
+    <!-- class "musiclink" = clicking this link starts the song -->
+    <a href="gallery.html" class="musiclink">🕊️ Our Gallery</a>
+  </nav>
+
+  <!-- PAGE CONTENT -->
+  <main class="page hero">
+    <div class="crown">👑</div>
+    <h1 class="script">Happy Birthday</h1>
+    <h2 class="script" id="nm">My Best Person</h2> <!-- name is set in js/home.js -->
+
+    <p>Today the whole sky is wearing wings just for you. May your day be soft like roses, bright like stars, and as beautiful as your smile.</p>
+
+    <a href="gallery.html" class="btn musiclink">Open our memories ✨</a>
+
+    <!-- The little note card with the hidden secret -->
+    <div class="card">
+      <p class="script">A little note for you</p>
+      <p>Some people are simply magic. They make ordinary days feel like fairy tales, and you are that person for me. Thank you for every laugh, every secret and every moment we shared.</p>
+      <button class="btn" id="sec">Tap for a secret 💌</button>
+
+      <!-- Hidden until she taps the button above (see js/home.js) -->
+      <div id="secret">
+        <span class="script">Look closely at every picture…</span><br>
+        Some feelings are too big for words, so I hid them in our memories. If you read them with your heart, you will know. 💖
+      </div>
+    </div>
+  </main>
+
+  <footer><span class="script">Made just for you</span> 💖</footer>
+
+  <!-- Music on/off button (shown only after the song has started) -->
+  <button id="mus" aria-label="Music on or off">🎵</button>
+
+  <!-- JAVASCRIPT: one file for both pages -->
+  <script src="script.js"></script>
+</body>
+</html>

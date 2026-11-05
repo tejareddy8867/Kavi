@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Royal Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">  <!-- same design file as the home page -->
+</head>
+<body>
+
+  <div id="wings" aria-hidden="true"></div>   <!-- wings + stars, filled by common.js -->
+
+  <nav>
+    <a href="index.html">✨ Home</a>
+    <a href="gallery.html" class="on">🕊️ Our Gallery</a>
+  </nav>
+
+  <main class="page">
+    <div class="gh">
+      <h2 class="script">Our Royal Gallery</h2>
+      <p>Twenty moments of my favourite person</p>
+    </div>
+
+    <!-- Empty on purpose: js/gallery.js creates the 20 photo frames inside it -->
+    <div class="grid" id="grid"></div>
+
+    <div class="tip">Tip: tap a photo to enlarge it 💗</div>
+  </main>
+
+  <footer><span class="script">Made just for you</span> 💖</footer>
+
+  <!-- Big photo view (hidden until a photo is tapped) -->
+  <div id="lb"><div id="lbc"></div></div>
+
+  <button id="mus" aria-label="Music on or off">🎵</button>
+
+  <!-- JAVASCRIPT: one file for both pages -->
+  <script src="script.js"></script>
+</body>
+</html>
