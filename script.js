@@ -105,8 +105,7 @@ function setupGallery() {
 for (var p = 1; p <= 20; p++) {
   photos.push("photo" + p + ".jpg");
 }
-}
-}
+
 
   // ✏️ STEP 2: one caption per photo, in the same order.
   var captions = [
